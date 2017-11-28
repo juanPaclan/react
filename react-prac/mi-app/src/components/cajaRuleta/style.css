@@ -1,0 +1,81 @@
+.ruleta {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  }
+  .ruleta .formaR {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    max-height: 300px;
+    max-width: 500px;
+    position: relative;
+    overflow: hidden;
+
+  }
+    .ruleta .formaR #img4 {
+      display: flex;
+      flex-direction: row;
+      width: 500px;
+      height: 100%;
+      animation-name: ruleta;
+      position: relative;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear; }
+    .ruleta .formaR #img3 {
+      display: flex;
+      flex-direction: row;
+      width: 500px;
+      height: 100%;
+      animation-name: ruleta;
+      position: relative;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear; }
+    .ruleta .formaR #img2 {
+      display: flex;
+      flex-direction: row;
+      flex:  1 1;
+      width: 500px;
+      height: 100%;
+      animation-name: ruleta;
+      position: relative;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear; }
+    .ruleta .formaR #img1 {
+      display: flex;
+      flex-direction: row;
+      flex: 1 1;
+      width: 500px;
+      height: 100%;
+      animation-name: ruleta;
+      position: relative;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear; }
+      @keyframes ruleta {
+        0% {
+          right: 0px; }
+        20% {
+          right: 0px; }
+        25% {
+          right: 500px; }
+        45% {
+          right: 500px; }
+        50% {
+          right: 1000px; }
+        70% {
+          right: 1000px; }
+        75% {
+          right: 1500px; }
+        100% {
+          right: 1500px; } }

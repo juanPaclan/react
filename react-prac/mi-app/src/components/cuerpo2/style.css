@@ -1,0 +1,54 @@
+.myclase2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+}
+.seccion3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0px, 0px, 0px, 0px;
+
+}
+.seccion2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: red;
+  width: 100%;
+}
+.asside{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+}
+.parrafo{
+  color: black;
+}
+.divv{
+  width: 100%;
+}
+.divv2{
+  width: 30%;
+}
+.divv3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background: yellow;
+}
+.elemento2 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  max-width: 960px;
+  margin: auto; }

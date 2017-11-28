@@ -1,0 +1,119 @@
+.muestraE {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0px auto; }
+  .muestraE .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0px; }
+    .muestraE .section .parraf {
+      align-self: center;
+      flex: 1 1;
+      color: #616161;
+      text-aline: center;
+      width: 90%;
+      margin: auto; }
+    .muestraE .section #imagent {
+      flex: 1 1;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-self: center;
+      width: 30%;
+      height: 80%;
+      margin: 0px auto; }
+      .muestraE .section #imagent .tama {
+        flex: 1 1;
+        width: 80%;
+        height: 80%; }
+  .muestraE .cuerpoNot {
+    flex: 1 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    width: 80%;
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+    top: 56px; }
+    .muestraE .cuerpoNot .caja1 {
+      margin: 2px;
+      padding: 2px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-around;
+      width: 30%;
+      transform: rotate(20deg);
+      text-decoration: none;
+      background: rgba(41, 98, 255, 0.5);
+      color: #e0e0e0;
+      box-shadow: 5px 5px 1px #e0e0e0;
+      border-radius: 5px 80px 15px 80px;
+      margin: 0px; }
+      .muestraE .cuerpoNot .caja1 #nota {
+        flex: 1 1;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        max-width: 60%;
+        text-align: center;
+        transform: rotate(-20deg);
+        margin: 0px; }
+        .muestraE .cuerpoNot .caja1 #nota #textnota {
+          margin: 9px;
+          padding: 5px;
+          font-size: 16px;
+          color: #e0e0e0;
+          text-shadow: -1px 1px 2px rgba(41, 98, 255, 0.9); }
+        .muestraE .cuerpoNot .caja1 #nota .part2 {
+          flex: 1 1;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          width: 100%;
+          height: 30%;
+          color: rgba(41, 98, 255, 0.9);
+          text-shadow: -1px 1px 3px #fafafa;
+          margin: 0px; }
+        .muestraE .cuerpoNot .caja1 #nota .part1 {
+          flex: 1 1;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          width: 100%;
+          height: 70%;
+          margin: 0px;
+          padding: 0px; }
+          .muestraE .cuerpoNot .caja1 #nota .part1 .imagen2 {
+            flex: 1 1;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px 5px 5px 5px; }
+.formato {
+  color: rgba(41, 98, 255, 0.9);
+  text-shadow: 10px 5px 3px #e0e0e0;
+  text-align: center; }
