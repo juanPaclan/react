@@ -4,6 +4,7 @@ import Articulos  from './containers/articulos';
 import NuevoArticulo  from './containers/nuevoArticulo';
 import ArticulosDescrip  from './containers/articulosDescrip';
 import Titulo from './components/titulo';
+import axios from 'axios';
 
 
 import {
@@ -44,8 +45,8 @@ class App extends Component {
   }
 
   componentDidMount(){
-    fetch("http://127.0.0.1:8000/articulo/")
-    .then((Response)=>Response.json())
+    axios.get('http://127.0.0.1:8000/articulo/')
+    .then((Response)=>Response.data)
     .then((findresponse)=> {
       console.log('>>>>>>>>>',findresponse);
       this.setState({

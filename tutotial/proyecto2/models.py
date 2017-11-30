@@ -9,7 +9,7 @@ class Articulo(models.Model):
     modelo = models.CharField(max_length=10)
     descripcion = models.TextField()
     precio = models.DecimalField(max_digits=8, decimal_places=2)
-    imagen = models.ImageField(upload_to='articulos')
+    imagen = models.ImageField(upload_to='articulos', null=True , blank=True)
 
     class Meta:
         ordering = ['marca']

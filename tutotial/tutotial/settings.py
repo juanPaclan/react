@@ -25,7 +25,7 @@ SECRET_KEY = 'kcc%fs)kkj551!-o3+qv$ys8#!@a!%%7=%ty#cz!bgy_q#9wiq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -72,7 +72,15 @@ CORS_ALLOW_METHODS = (
 ROOT_URLCONF = 'tutotial.urls'
 
 REST_FRAMEWORK = {
-    'PAGE_SIZE': 10
+     'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.AllowAny',
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    )
 }
 
 TEMPLATES = [
